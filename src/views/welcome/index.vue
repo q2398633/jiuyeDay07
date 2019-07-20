@@ -1,6 +1,6 @@
 <template>
     <div class="welcome-container">
-        <img src="../../assets/images/welcome.jpg" alt="">
+
     </div>
 </template>
 
@@ -11,5 +11,9 @@ export default {
 </script>
 
 <style scoped lang="less">
-
+    .welcome-container {
+        background: url(../../assets/images/welcome.jpg) no-repeat;
+        width: 100%;
+        height: 100%;
+    }
 </style>

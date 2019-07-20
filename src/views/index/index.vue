@@ -67,7 +67,7 @@
           </el-dropdown>
         </el-header>
         <el-main>
-        <!--  导航菜单组件-->
+        <!--  显示二级路由对应的组件-->
         <router-view></router-view>
         </el-main>
       </el-container>
